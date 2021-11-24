@@ -52,11 +52,11 @@
             |   ├──torch_utils.py           
             |   └──utils.py 
             |
-            ├──generate_submission.py ()
-            ├──mat2yolo.py ()
-            ├──new_digitStruct.mat ()            
+            ├──generate_submission.py (by myself)
+            ├──mat2yolo.py (by myself)
+            ├──new_digitStruct.mat (by myself)            
             ├──requirements.txt      
-            ├──split_train_valid.py ()            
+            ├──split_train_valid.py (by myself)            
             ├──test.py
             └──train.py
 
