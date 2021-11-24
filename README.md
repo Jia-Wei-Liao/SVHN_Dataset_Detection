@@ -6,9 +6,13 @@
 - `torch == 1.6`
 - `torchvision`
 - `matplotlib`
+- `pandas`
+- `numpy`
 - `pycocotools`
 - `tqdm`
 - `pillow`
+- `hdf5`
+- `PIL`
 - `tensorboard >= 1.14`
 
 
@@ -73,8 +77,19 @@
             └──train.py
 
 
-## Reference
+## Training
+## Inference
+## Reproducing Submission
+To reproduce our submission without retraining, do the following steps
 
+## Results
+Faster-RCNN and YOLOv4 achieve the following performance:
+| Column 1 | Column 2 | Column 3 |
+| -------- | -------- | -------- |
+| Text     | Text     | Text     |
+
+
+## Reference
 ### Faster RCNN
 [1] https://github.com/kayoyin/digit-detector/blob/master/construct_data.py  
 [2] https://github.com/pytorch/vision/tree/main/references/detection  
