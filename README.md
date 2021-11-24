@@ -92,9 +92,9 @@
           ├──generate_submission.py (by myself)
           ├──mat2yolo.py (by myself)
           ├──new_digitStruct.mat (we modify the mat file by MATLAB that scipy package can import)            
-          ├──requirements.txt      
+          ├──requirements.txt
           ├──split_train_valid.py (by myself)            
-          ├──test.py
+          ├──test.py 
           └──train.py
 
 
@@ -109,6 +109,8 @@ python generate_submission.py --data_path test -- checkpoint best.pt
 
 ## Reproducing Submission
 To reproduce our submission without retraining, do the following steps
+
+\href{https://drive.google.com/drive/folders/1BPxTCnvXPHck3hg5QOFD1xJlMDZplKfh?usp=sharing}
 
 ## Results
 Faster-RCNN and YOLOv4 achieve the following performance:
