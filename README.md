@@ -64,8 +64,8 @@
 ## Reference
 
 ### Faster RCNN
-[1] https://github.com/kayoyin/digit-detector/blob/master/construct_data.py \\
-[2] https://github.com/pytorch/vision/tree/main/references/detection \\
+[1] https://github.com/kayoyin/digit-detector/blob/master/construct_data.py  
+[2] https://github.com/pytorch/vision/tree/main/references/detection  
 [3] https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html
 
 ### YOLOv4
