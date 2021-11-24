@@ -78,7 +78,9 @@
 
 
 ## Training
+
 ## Inference
+To inference the results, run this command:
 ```
 python generate_submission.py --data_path test -- checkpoint best.pt
 ```
