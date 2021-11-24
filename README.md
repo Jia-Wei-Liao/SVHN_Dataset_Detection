@@ -1,17 +1,16 @@
 # SVHN_Dataset_Detection
 
 ## Requirements
-```
-numpy == 1.17
-opencv-python >= 4.1
-torch == 1.6
-torchvision
-matplotlib
-pycocotools
-tqdm
-pillow
-tensorboard >= 1.14
-```
+- `numpy == 1.17`
+- `opencv-python >= 4.1`
+- `torch == 1.6`
+- `torchvision`
+- `matplotlib`
+- `pycocotools`
+- `tqdm`
+- `pillow`
+- `tensorboard >= 1.14`
+
 
 ## File Structure
       .
