@@ -8,6 +8,7 @@
 - `matplotlib`
 - `pandas`
 - `numpy`
+- `scipy`
 - `pycocotools`
 - `tqdm`
 - `pillow`
@@ -70,7 +71,7 @@
             |
             ├──generate_submission.py (by myself)
             ├──mat2yolo.py (by myself)
-            ├──new_digitStruct.mat (by myself)            
+            ├──new_digitStruct.mat (we modify the mat file by MATLAB that scipy package can import)            
             ├──requirements.txt      
             ├──split_train_valid.py (by myself)            
             ├──test.py
