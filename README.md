@@ -63,7 +63,7 @@
           |   └──
           |
           ├──checkpoint
-          |   └──
+          |   └── 
           |
           ├──train
           |   └──X.png (30000 pictures)
@@ -100,24 +100,32 @@
 
 ## Training
 
+
+## Pre-trained weight
+Download: <https://drive.google.com/drive/folders/1BPxTCnvXPHck3hg5QOFD1xJlMDZplKfh?usp=sharing>
+
+
 ## Inference
 To inference the results, run this command:
 ```
 python generate_submission.py --data_path test -- checkpoint best.pt
 ```
 
+## Reproducing submission
+To reproduce our submission, please do the following steps:
+1. Getting the code
+2. Install the package
+3. Download the dataset
+4. Download pre-trained weight
+5. Inference
 
-## Reproducing Submission
-To reproduce our submission without retraining, do the following steps
-
-
-<https://drive.google.com/drive/folders/1BPxTCnvXPHck3hg5QOFD1xJlMDZplKfh?usp=sharing>
 
 ## Results
 Faster-RCNN and YOLOv4 achieve the following performance:
-| Model    | Faster-RCNN | YOLOv4 |
-| -------- | ----------- | ------ |
-| mAP      | Text        | Text   |
+| Model      | Faster-RCNN | YOLOv4   |
+| ---------- | ----------- | ---------|
+| best epoch | 3           | 50       |
+| mAP        | 0.389141    | 0.413316 |
 
 
 ## Reference
