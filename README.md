@@ -84,7 +84,7 @@ To reproduce our submission without retraining, do the following steps
 
 ## Results
 Faster-RCNN and YOLOv4 achieve the following performance:
-| Column 1 | Faster-RCNN | YOLOv4 |
+| Model    | Faster-RCNN | YOLOv4 |
 | -------- | ----------- | ------ |
 | mAP      | Text        | Text   |
 
