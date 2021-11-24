@@ -110,7 +110,8 @@ python generate_submission.py --data_path test -- checkpoint best.pt
 ## Reproducing Submission
 To reproduce our submission without retraining, do the following steps
 
-\href{https://drive.google.com/drive/folders/1BPxTCnvXPHck3hg5QOFD1xJlMDZplKfh?usp=sharing}
+
+<https://drive.google.com/drive/folders/1BPxTCnvXPHck3hg5QOFD1xJlMDZplKfh?usp=sharing>
 
 ## Results
 Faster-RCNN and YOLOv4 achieve the following performance:
