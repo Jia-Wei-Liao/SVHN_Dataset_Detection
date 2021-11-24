@@ -20,6 +20,7 @@
 ## File Structure
       .
       ├──FasterRCNN
+      |   ├──checkpoint
       |   ├──detection (Reference [2])
       |   |   ├──coco_eval.py
       |   |   ├──coco_utils.py
@@ -33,49 +34,68 @@
       |   |   ├──transforms.py
       |   |   └──utils.py
       |   |
+      |   ├──train
+      |   |   ├──X.png (30000 pictures)
+      |   |   └──digitStruct.mat
+      |   |      
+      |   ├──test
+      |   |   └──X.png (13068 pictures)
+      |   |      
       |   ├──00_mat2df.py (Reference [1])
-      |   ├──01_train.py  (Reference [3])
+      |   ├──01_train.py (Reference [3])
       |   ├──02_test.py
       |   ├──train_data.csv
       |   └──valid_data.csv
       |
       └──YOLOv4 (Reference [4])
-            ├──cfg
-            |   └──yolov4-pacsp.cfg
-            |
-            ├──data
-            |   ├──hyp.scratch.yaml
-            |   └──svhn.yaml
-            |
-            ├──models
-            |   ├──export.py
-            |   └──svhn.yaml
-            |
-            ├──utils
-            |   ├──activations.py
-            |   ├──adabound.py           
-            |   ├──autoanchor.py            
-            |   ├──datasets.py          
-            |   ├──evolve.sh            
-            |   ├──gcp.sh           
-            |   ├──general.py           
-            |   ├──google_utils.py
-            |   ├──layers.py
-            |   ├──loss.py
-            |   ├──metrics.py         
-            |   ├──parse_config.py
-            |   ├──metrics.py            
-            |   ├──plots.py          
-            |   ├──torch_utils.py           
-            |   └──utils.py 
-            |
-            ├──generate_submission.py (by myself)
-            ├──mat2yolo.py (by myself)
-            ├──new_digitStruct.mat (we modify the mat file by MATLAB that scipy package can import)            
-            ├──requirements.txt      
-            ├──split_train_valid.py (by myself)            
-            ├──test.py
-            └──train.py
+          ├──cfg
+          |   └──yolov4-pacsp.cfg
+          |
+          ├──data
+          |   ├──hyp.scratch.yaml
+          |   └──svhn.yaml
+          |
+          ├──models
+          |   ├──export.py
+          |   └──svhn.yaml
+          |
+          ├──weights
+          |   └──
+          |
+          ├──checkpoint
+          |   └──
+          |
+          ├──train
+          |   └──X.png (30000 pictures)
+          |
+          ├──test
+          |   └──X.png (13068 pictures)        
+          |   
+          ├──utils
+          |   ├──activations.py
+          |   ├──adabound.py           
+          |   ├──autoanchor.py            
+          |   ├──datasets.py          
+          |   ├──evolve.sh            
+          |   ├──gcp.sh           
+          |   ├──general.py           
+          |   ├──google_utils.py
+          |   ├──layers.py
+          |   ├──loss.py
+          |   ├──metrics.py         
+          |   ├──parse_config.py
+          |   ├──metrics.py            
+          |   ├──plots.py          
+          |   ├──torch_utils.py           
+          |   └──utils.py 
+          |
+          ├──generate_submission.py (by myself)
+          ├──mat2yolo.py (by myself)
+          ├──new_digitStruct.mat (we modify the mat file by MATLAB that scipy package can import)            
+          ├──requirements.txt      
+          ├──split_train_valid.py (by myself)            
+          ├──test.py
+          └──train.py
 
 
 ## Training
