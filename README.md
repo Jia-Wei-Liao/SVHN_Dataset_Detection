@@ -122,11 +122,13 @@ To reproduce our submission, please do the following steps:
 
 ## Results
 Faster-RCNN and YOLOv4 achieve the following performance:
-| Model      | Faster-RCNN | YOLOv4   |
-| ---------- | ----------- | ---------|
-| best epoch | 3           | 50       |
-| mAP        | 0.389141    | 0.413316 |
+| Model         | Faster-RCNN | YOLOv4   |
+| ------------- | ----------- | ---------|
+| best epoch    | 3           | 50       |
+| mAP           | 0.389141    | 0.413316 |
+| speed (img/s) | 0.14775     |          |
 
+Colab link: <https://colab.research.google.com/drive/1iosQjMUfzmDVLkrXhI13IZyuIJuTiArq?usp=sharing>
 
 ## Reference
 ### Faster RCNN
