@@ -79,6 +79,11 @@
 
 ## Training
 ## Inference
+```
+python generate_submission.py --data_path test -- checkpoint best.pt
+```
+
+
 ## Reproducing Submission
 To reproduce our submission without retraining, do the following steps
 
