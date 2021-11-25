@@ -106,16 +106,19 @@ https://github.com/Jia-Wei-Liao/SVHN_Dataset_Detection.git
 
 
 ## Training
+You can download all the files in this repository by cloning this repository:
 ```
 python train.py --data svhn.yaml --cfg cfg/yolov4-pacsp.cfg --weights yolov4.weights --device 0 --img 640 640 --batch-size 16
 ```
 
 
 ## Pre-trained weight
-Download: <https://drive.google.com/drive/folders/1BPxTCnvXPHck3hg5QOFD1xJlMDZplKfh?usp=sharing>
+
+
 
 
 ## Inference
+You can download the weight on the google drive: <https://drive.google.com/drive/folders/1BPxTCnvXPHck3hg5QOFD1xJlMDZplKfh?usp=sharing>  
 To inference the results, run this command:
 ```
 python generate_submission.py --data_path test -- checkpoint best.pt
