@@ -1,9 +1,11 @@
 # SVHN_Dataset_Detection
 
+
 ## Getting the code
 ```
 https://github.com/Jia-Wei-Liao/SVHN_Dataset_Detection.git
 ```
+
 
 ## Requirements
 - `numpy == 1.17`
@@ -105,8 +107,9 @@ https://github.com/Jia-Wei-Liao/SVHN_Dataset_Detection.git
 
 ## Training
 ```
-python train.py --device 0 --batch-size 16 --img 640 640 --data svhn.yaml --cfg cfg/yolov4-pacsp.cfg --weights yolov4.weights --epochs 50
+python train.py --data svhn.yaml --cfg cfg/yolov4-pacsp.cfg --weights yolov4.weights --device 0 --img 640 640 --batch-size 16
 ```
+
 
 ## Pre-trained weight
 Download: <https://drive.google.com/drive/folders/1BPxTCnvXPHck3hg5QOFD1xJlMDZplKfh?usp=sharing>
@@ -117,6 +120,7 @@ To inference the results, run this command:
 ```
 python generate_submission.py --data_path test -- checkpoint best.pt
 ```
+
 
 ## Reproducing submission
 To reproduce our submission, please do the following steps:
