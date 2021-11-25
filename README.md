@@ -109,7 +109,7 @@ https://github.com/Jia-Wei-Liao/SVHN_Dataset_Detection.git
 ## Training
 To train the model, run this command:
 ```
-python train.py --data svhn.yaml --cfg cfg/yolov4-pacsp.cfg --weights yolov4.weights --device 0 --img 640 640 --batch-size 16
+python train.py --data svhn.yaml --cfg /YOLOv4/cfg/yolov4-pacsp.cfg --weights yolov4.weights --device 0 --img 640 640 --batch-size 16
 ```
 
 
@@ -119,7 +119,7 @@ You can download the weight on the google drive:
 
 To inference the results, run this command:
 ```
-python generate_submission.py --data_path test -- checkpoint /checkpoint/demo_0.419.pt
+python generate_submission.py --data_path /YOLOv4/test --weight /YOLOv4/checkpoint/demo_0.419.pt
 ```
 
 
