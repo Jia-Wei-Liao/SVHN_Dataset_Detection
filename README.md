@@ -1,5 +1,10 @@
 # SVHN_Dataset_Detection
 
+## Getting the code
+```
+https://github.com/Jia-Wei-Liao/SVHN_Dataset_Detection.git
+```
+
 ## Requirements
 - `numpy == 1.17`
 - `opencv-python >= 4.1`
@@ -99,7 +104,9 @@
 
 
 ## Training
-
+```
+python train.py --device 0 --batch-size 16 --img 640 640 --data svhn.yaml --cfg cfg/yolov4-pacsp.cfg --weights yolov4.weights --epochs 50
+```
 
 ## Pre-trained weight
 Download: <https://drive.google.com/drive/folders/1BPxTCnvXPHck3hg5QOFD1xJlMDZplKfh?usp=sharing>
@@ -122,13 +129,15 @@ To reproduce our submission, please do the following steps:
 
 ## Results
 Faster-RCNN and YOLOv4 achieve the following performance:
-| Model         | Faster-RCNN | YOLOv4   |
-| ------------- | ----------- | ---------|
-| best epoch    | 3           | 50       |
-| mAP           | 0.389141    | 0.413316 |
-| speed (img/s) | 0.14775     |          |
+| Model                     | Faster-RCNN | YOLOv4   |
+| ------------------------- | ----------- | ---------|
+| best epoch                | 4           | 50       |
+| mAP                       | 0.389141    | 0.41987  |
+| speed on P100 GPU (img/s) | X           | 0.13696  |
+| speed on K80  GPU(img/s)  | X           | 0.13696  |
 
 Colab link: <https://colab.research.google.com/drive/1iosQjMUfzmDVLkrXhI13IZyuIJuTiArq?usp=sharing>
+
 
 ## Reference
 ### Faster RCNN
