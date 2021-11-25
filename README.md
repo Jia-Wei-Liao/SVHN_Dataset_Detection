@@ -67,11 +67,8 @@ https://github.com/Jia-Wei-Liao/SVHN_Dataset_Detection.git
           |   ├──export.py
           |   └──svhn.yaml
           |
-          ├──weights
-          |   └──
-          |
           ├──checkpoint
-          |   └── 
+          |   └── demo_0.419pt (download from Goole Drive)
           |
           ├──train
           |   └──X.png (30000 pictures)
@@ -114,12 +111,12 @@ python train.py --data svhn.yaml --cfg /YOLOv4/cfg/yolov4-pacsp.cfg --weights yo
 
 
 ## Inference
-You can download the weight on the google drive:  
+You can download the weight on the Google Drive:  
 <https://drive.google.com/drive/folders/1BPxTCnvXPHck3hg5QOFD1xJlMDZplKfh?usp=sharing>  
 
-To inference the results, run this command:
+To inference the results, you should move to folder YOLOv4 and run this command:
 ```
-python generate_submission.py --data_path /YOLOv4/test --weight /YOLOv4/checkpoint/demo_0.419.pt
+python generate_submission.py --data_path /test --weight /checkpoint/demo_0.419.pt
 ```
 
 
@@ -141,7 +138,7 @@ Faster-RCNN and YOLOv4 achieve the following performance:
 | speed on P100 GPU (img/s) | X           | 0.13696  |
 | speed on K80  GPU(img/s)  | X           | 0.13696  |
 
-You can open our Colab on this link:  
+You can open our Google Colab on this link:  
 <https://colab.research.google.com/drive/1iosQjMUfzmDVLkrXhI13IZyuIJuTiArq?usp=sharing>
 
 
