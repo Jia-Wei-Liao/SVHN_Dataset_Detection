@@ -112,18 +112,13 @@ python train.py --data svhn.yaml --cfg cfg/yolov4-pacsp.cfg --weights yolov4.wei
 ```
 
 
-## Pre-trained weight
-
-
-
-
 ## Inference
 You can download the weight on the google drive:  
 <https://drive.google.com/drive/folders/1BPxTCnvXPHck3hg5QOFD1xJlMDZplKfh?usp=sharing>  
 
 To inference the results, run this command:
 ```
-python generate_submission.py --data_path test -- checkpoint best.pt
+python generate_submission.py --data_path test -- checkpoint /checkpoint/demo_0.419.pt
 ```
 
 
