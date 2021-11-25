@@ -8,23 +8,6 @@ https://github.com/Jia-Wei-Liao/SVHN_Dataset_Detection.git
 ```
 
 
-## Requirements
-- `numpy == 1.17`
-- `opencv-python >= 4.1`
-- `torch == 1.6`
-- `torchvision`
-- `matplotlib`
-- `pandas`
-- `numpy`
-- `scipy`
-- `pycocotools`
-- `tqdm`
-- `pillow`
-- `hdf5`
-- `PIL`
-- `tensorboard >= 1.14`
-
-
 ## File Structure
       .
       ├──FasterRCNN
@@ -101,6 +84,23 @@ https://github.com/Jia-Wei-Liao/SVHN_Dataset_Detection.git
           ├──split_train_valid.py (by myself)            
           ├──test.py 
           └──train.py
+
+
+## Requirements
+- `numpy == 1.17`
+- `opencv-python >= 4.1`
+- `torch == 1.6`
+- `torchvision`
+- `matplotlib`
+- `pandas`
+- `numpy`
+- `scipy`
+- `pycocotools`
+- `tqdm`
+- `pillow`
+- `hdf5`
+- `PIL`
+- `tensorboard >= 1.14`
 
 
 ## Training
