@@ -108,10 +108,14 @@ https://github.com/Jia-Wei-Liao/SVHN_Dataset_Detection.git
 - `tensorboard >= 1.14`
 
 
-## Training
-You can download the weight on the Google Drive:  
-<https://drive.google.com/drive/folders/1wYiUhk8yma6RJJ2RcjhIoLyCIy-J4lkU?usp=sharing>  
+## Download
+- You can download the dataset on the Google Drive:  
+<https://drive.google.com/drive/folders/1wYiUhk8yma6RJJ2RcjhIoLyCIy-J4lkU?usp=sharing>
+- You can download the weight on the Google Drive:  
+<https://drive.google.com/drive/folders/1BPxTCnvXPHck3hg5QOFD1xJlMDZplKfh?usp=sharing>  
 
+
+## Training
 To train the model, you should move to folder YOLOv4 and run this command:
 ```
 python train.py --data svhn.yaml --cfg cfg/yolov4-pacsp.cfg --weights checkpoint/yolov4.weights --device 0 --img 640 640 --batch-size 16
@@ -119,9 +123,6 @@ python train.py --data svhn.yaml --cfg cfg/yolov4-pacsp.cfg --weights checkpoint
 
 
 ## Inference
-You can download the weight on the Google Drive:  
-<https://drive.google.com/drive/folders/1BPxTCnvXPHck3hg5QOFD1xJlMDZplKfh?usp=sharing>  
-
 To inference the results, you should move to folder YOLOv4 and run this command:
 ```
 python generate_submission.py --data_path test --weight checkpoint/demo_0.419.pt
