@@ -44,11 +44,11 @@ https://github.com/Jia-Wei-Liao/SVHN_Dataset_Detection.git
           |
           ├──data
           |   ├──hyp.scratch.yaml
-          |   └──svhn.yaml
+          |   └──svhn.yaml (by myself)
           |
           ├──models
           |   ├──export.py
-          |   └──svhn.yaml
+          |   └──models.py
           |
           ├──checkpoint
           |   └── demo_0.419pt (download from Goole Drive)
