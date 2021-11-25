@@ -106,7 +106,7 @@ https://github.com/Jia-Wei-Liao/SVHN_Dataset_Detection.git
 ## Training
 To train the model, run this command:
 ```
-python train.py --data svhn.yaml --cfg /YOLOv4/cfg/yolov4-pacsp.cfg --weights yolov4.weights --device 0 --img 640 640 --batch-size 16
+python train.py --data svhn.yaml --cfg cfg/yolov4-pacsp.cfg --weights checkpoint/yolov4.weights --device 0 --img 640 640 --batch-size 16
 ```
 
 
