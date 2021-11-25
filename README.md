@@ -53,10 +53,15 @@ https://github.com/Jia-Wei-Liao/SVHN_Dataset_Detection.git
           ├──checkpoint
           |   └── demo_0.419pt (download from Goole Drive)
           |
-          ├──train
-          |   └──X.png (30000 pictures)
+          ├──train (download from Goole Drive)
+          |   ├──X.png (30000 pictures)
+          |   └──X.txt (30000 text file)
           |
-          ├──test
+          ├──valid (download from Goole Drive)
+          |   ├──X.png (3402 pictures)
+          |   └──X.txt (3402 text file)
+          |
+          ├──test (download from Goole Drive)
           |   └──X.png (13068 pictures)        
           |   
           ├──utils
