@@ -2,6 +2,7 @@
 
 
 ## Getting the code
+You can download all the files in this repository by cloning this repository:
 ```
 https://github.com/Jia-Wei-Liao/SVHN_Dataset_Detection.git
 ```
@@ -106,7 +107,7 @@ https://github.com/Jia-Wei-Liao/SVHN_Dataset_Detection.git
 
 
 ## Training
-You can download all the files in this repository by cloning this repository:
+To train the model, run this command:
 ```
 python train.py --data svhn.yaml --cfg cfg/yolov4-pacsp.cfg --weights yolov4.weights --device 0 --img 640 640 --batch-size 16
 ```
