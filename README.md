@@ -133,9 +133,8 @@ python generate_submission.py --data_path test --weight checkpoint/demo_0.419.pt
 To reproduce our submission, please do the following steps:
 1. Getting the code
 2. Install the package
-3. Download the dataset
-4. Download pre-trained weight
-5. Inference
+3. Download the dataset and weight
+4. Inference
 
 
 ## Results
