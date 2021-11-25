@@ -142,9 +142,8 @@ To reproduce our submission, please do the following steps:
 Faster-RCNN and YOLOv4 achieve the following performance:
 | Model                     | Faster-RCNN | YOLOv4   |
 | ------------------------- | ----------- | ---------|
-| best epoch                | 4           | 50       |
-| mAP                       | 0.389141    | 0.41987  |
-| speed on P100 GPU (img/s) | X           | 0.13696  |
+| test mAP                  | 0.389141    | 0.41987  |
+| speed on P100 GPU (img/s) | 0.2         | 0.07364  |
 | speed on K80  GPU(img/s)  | X           | 0.13696  |
 
 You can open our Google Colab on this link:  
