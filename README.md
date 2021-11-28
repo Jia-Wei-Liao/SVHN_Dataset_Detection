@@ -1,6 +1,13 @@
 # SVHN_Dataset_Detection
 
 
+In this homework, we implement the deep learning method to detect the digits images.First, we use detection package to construct Faster R-CNN model [3]. After the hyper-parameter tuning, we obtain a testing mAP of 0.389141. It’s not far from the baseline,but we can’t beat it. So, in order to beat the baseline, we implement the YOLOv4 model[4]. We refer to the code on the github and write the data processing, submission codeby ourselves. Finally, we exceed the baseline and get the test mAP of 0.41987.
+
+
+##  Introduction of SVHN Dataset
+The Street View House Numbers (SVHN) Dataset is the most widely-used dataset fordeveloping machine learning and object recognition. It’s obtained from house numbersin Google Street View images. In this homework, we contains 33,402 training imagesand 13,068 test images in SVHN dataset and need to train a model to detect digits. The model should predict fast and precise on inference time.
+
+
 ## Getting the code
 You can download all the files in this repository by cloning this repository:
 ```
@@ -141,9 +148,9 @@ To reproduce our submission, please do the following steps:
 Faster-RCNN and YOLOv4 achieve the following performance:
 | Model                     | Faster-RCNN | YOLOv4   |
 | ------------------------- | ----------- | ---------|
-| test mAP                  | 0.389141    | 0.41987  |
+| test mAP@0.5:0.95         | 0.389141    | 0.41987  |
 | speed on P100 GPU (img/s) | 0.2         | 0.07364  |
-| speed on K80  GPU(img/s)  | X           | 0.13696  |
+| speed on K80  GPU (img/s) | X           | 0.13696  |
 
 You can open our Google Colab on this link:  
 <https://colab.research.google.com/drive/1iosQjMUfzmDVLkrXhI13IZyuIJuTiArq?usp=sharing>
