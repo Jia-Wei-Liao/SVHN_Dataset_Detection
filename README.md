@@ -117,7 +117,8 @@ https://github.com/Jia-Wei-Liao/SVHN_Dataset_Detection.git
 
 ## Download
 - You can download the dataset on the Google Drive:  
-<https://drive.google.com/drive/folders/1wYiUhk8yma6RJJ2RcjhIoLyCIy-J4lkU?usp=sharing>
+  - train: <https://drive.google.com/drive/folders/18jvQC966ovqfPn1nqW9YX1upIk8tJ6JF?usp=sharing>  
+  - test: <https://drive.google.com/drive/folders/144QsIJxOH0mLTcXkvn4RvV2IQSwMkzFX?usp=sharing>
 - You can download the weight on the Google Drive:  
 <https://drive.google.com/drive/folders/1BPxTCnvXPHck3hg5QOFD1xJlMDZplKfh?usp=sharing>  
 
