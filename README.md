@@ -154,7 +154,7 @@ Faster-RCNN and YOLOv4 achieve the following performance:
 | speed on K80  GPU (img/s) | X           | 0.13696  |
 
 You can open our Google Colab on this link:  
-<https://colab.research.google.com/drive/1iosQjMUfzmDVLkrXhI13IZyuIJuTiArq?usp=sharing>
+<https://github.com/Jia-Wei-Liao/SVHN_Dataset_Detection/blob/main/inference.ipynb>
 
 
 ## Reference
